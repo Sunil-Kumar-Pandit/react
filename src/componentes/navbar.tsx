@@ -38,20 +38,20 @@ export const NavHead = ()=>{
                             <div className="collapse navbar-collapse " id="navbarSupportedContent">
                                 <ul className="navbar-nav mb-2 ms-auto me-3 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active text-light" aria-current="page">Home</a>
+                                        <Link className="nav-link active text-light" aria-current="page">Home</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link text-light" onClick={handleOpen}>SignIn</Link>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <a className="nav-link dropdown-toggle text-light"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <Link className="nav-link dropdown-toggle text-light"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Dropdown
-                                        </a>
+                                        </Link>
                                         <ul className="dropdown-menu text-light" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" >Action</a></li>
-                                            <li><a className="dropdown-item" >Another action</a></li>
+                                            <li><Link className="dropdown-item" >Action</Link></li>
+                                            <li><Link className="dropdown-item" >Another action</Link></li>
                                             <li><hr className="dropdown-divider"/></li>
-                                            <li><a className="dropdown-item" >Something else here</a></li>
+                                            <li><Link className="dropdown-item" >Something else here</Link></li>
                                         </ul>
                                     </li>
                                     {/* <li className="nav-item">
